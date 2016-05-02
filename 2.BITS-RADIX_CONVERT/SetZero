@@ -1,0 +1,12 @@
+public class SetZero {
+  public int set(int num, int i) {
+    int number;
+        StringBuilder sNum = new StringBuilder(Integer.toBinaryString(num));
+        if (i>0 && i<=sNum.length()) {
+            sNum.replace(sNum.length()-i,sNum.length()-i+1,"0");
+        }
+        number =(int) Long.parseLong(sNum.toString(),2);
+
+        return number;
+    }
+}
