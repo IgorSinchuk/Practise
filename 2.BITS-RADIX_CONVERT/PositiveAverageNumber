@@ -1,0 +1,6 @@
+public class PositiveAverageNumber {
+  public int average(int a, int b) {
+ long av = ((long) Math.abs(a) + Math.abs(b)) / 2;
+        return (int) av;
+  }
+}
