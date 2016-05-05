@@ -1,0 +1,6 @@
+public class AverageNumber {
+  public int average(int a, int b) {
+long av = ((long) a+b) /2;
+return (int) av;
+  }
+}
